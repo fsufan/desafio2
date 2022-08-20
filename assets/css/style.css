@@ -1,0 +1,64 @@
+/*Estilo general para el body del sitio (Tipo de Letra)*/
+
+body{
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*Estilo para el encabezado del sitio*/
+.header{
+    height: 5em;
+    padding: 2em;
+    font-size: 2em;
+    background-image: url(/assets/imgs/head2.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: right;
+    color: beige;
+}
+
+
+/*Estido de los productos*/
+.products{
+    width: 100%;
+    margin-left: 0;
+    background-color: lemonchiffon;
+    
+}
+.imagen {
+    text-align: center;
+}
+.products h1{
+    text-align: left;
+    color: rgb(118, 95, 19)
+}
+
+.products td{
+    width: 40%;
+    padding: 0.5em;
+}
+
+.products p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: left;
+    color: brown;
+}
+
+.products img{
+    width: 50%;
+    border: solid 3px rgb(168, 112, 29);
+}
+
+
+/*Estilo para el pie de Pagina*/
+.footer{
+    height: 2em;
+    line-height: 2em;
+    background-color:peru;
+    text-align: center;
+    font-weight: 600;
+    }
+.footer a{
+    font-style: italic;
+    color: white;
+}
