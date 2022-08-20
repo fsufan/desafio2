@@ -9,7 +9,7 @@ body{
     height: 5em;
     padding: 2em;
     font-size: 2em;
-    background-image: url(/assets/imgs/head2.jpg);
+    background-image: url("/assets/imgs/head2.jpg");
     background-size: cover;
     background-position: center;
     text-align: right;
